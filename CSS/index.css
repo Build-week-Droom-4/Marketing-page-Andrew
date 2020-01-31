@@ -179,3 +179,21 @@ p {
   color: white;
   text-decoration: none;
 }
+.Droom-Header {
+  margin-left: 25%;
+  padding: 10%;
+  background: url("https://cdn6.dissolve.com/p/D187_233_060/D187_233_060_1200.jpg");
+  background-attachment: fixed;
+  text-align: center;
+  font-size: 2rem;
+  color: #1c8af1;
+}
+.Droom-Header button {
+  margin: 2% auto;
+  display: block;
+  border-radius: 5px;
+  background-color: #4687e9;
+  padding: 1rem;
+  font-size: 1.5rem;
+  border: solid black 1px;
+}
