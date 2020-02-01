@@ -168,7 +168,8 @@ p {
   color: white;
   font-size: 2rem;
   align-items: center;
-  text-align: center;
+  text-align: right;
+  padding-right: 0;
 }
 .NavMenu nav {
   height: 100%;
@@ -176,7 +177,10 @@ p {
   flex-direction: column;
 }
 .NavMenu nav h1 {
-  font-size: 4rem;
+  font-size: 3rem;
+}
+.NavMenu nav h3 {
+  font-size: 1.6rem;
 }
 .NavMenu nav a {
   width: 100%;
@@ -185,22 +189,39 @@ p {
   color: white;
   text-decoration: none;
 }
+.NavMenu nav .SocialMedia {
+  margin-top: 250%;
+}
 .Droom-Header {
   margin-left: 15%;
-  padding: 10%;
-  background: url("https://cdn6.dissolve.com/p/D187_233_060/D187_233_060_1200.jpg");
+  padding: 5%;
   background-attachment: fixed;
   text-align: center;
   font-size: 2rem;
-  color: #1c8af1;
+  color: white;
+  background: #56acf3;
   font-weight: 800;
 }
 .Droom-Header button {
   margin: 2% auto;
   display: block;
   border-radius: 5px;
-  background-color: #4687e9;
+  background-color: #fdfdfd;
   padding: 1rem;
   font-size: 1.5rem;
   border: solid black 1px;
+}
+.header-img {
+  margin-left: 15%;
+}
+.header-img img {
+  opacity: 80%;
+  height: 50rem;
+  width: 100%;
+}
+.Marketing {
+  margin-top: 2%;
+  margin-left: 15%;
+  font-size: 2rem;
+  width: 40%;
 }
