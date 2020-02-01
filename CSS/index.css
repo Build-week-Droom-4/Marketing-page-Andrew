@@ -161,18 +161,24 @@ p {
 .NavMenu {
   display: flex;
   flex-direction: column;
-  width: 25%;
+  width: 15%;
   height: 100%;
   position: fixed;
   background-color: #007cf8;
   color: white;
   font-size: 2rem;
+  align-items: center;
+  text-align: center;
 }
-.NavMenu h1 {
+.NavMenu nav {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.NavMenu nav h1 {
   font-size: 4rem;
-  align-content: center;
 }
-.NavMenu a {
+.NavMenu nav a {
   width: 100%;
   display: block;
   padding: 4%;
@@ -180,7 +186,7 @@ p {
   text-decoration: none;
 }
 .Droom-Header {
-  margin-left: 25%;
+  margin-left: 15%;
   padding: 10%;
   background: url("https://cdn6.dissolve.com/p/D187_233_060/D187_233_060_1200.jpg");
   background-attachment: fixed;
