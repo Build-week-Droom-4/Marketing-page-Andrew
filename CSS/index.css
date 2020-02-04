@@ -247,8 +247,17 @@ p {
   font-size: 2rem;
   width: 40%;
 }
+.FootHeader {
+  margin-left: 15%;
+  margin-top: 2%;
+  background: gainsboro;
+}
 footer {
   margin-left: 15%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 0%;
+  background: gainsboro;
 }
 footer a {
   font-size: 2rem;
