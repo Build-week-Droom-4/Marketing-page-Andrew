@@ -213,16 +213,13 @@ p {
 }
 .Droom-Header {
   margin-left: 15%;
-  padding: 5%;
+  padding: 2%;
   background-attachment: fixed;
   text-align: center;
   font-size: 2rem;
   color: white;
-  background: #2c96ff;
-  font-weight: 800;
-}
-.Droom-Header p {
-  width: 50%;
+  background: dodgerblue;
+  font-weight: 500;
 }
 .Droom-Header button {
   margin: 2% auto;
@@ -238,12 +235,6 @@ p {
 .Droom-Header button:hover {
   color: white;
   background: dodgerblue;
-}
-@media (max-width: 500px) {
-  .Droom-Header button {
-    padding: 5%;
-    margin: 2% 0% 2% 0%;
-  }
 }
 .header-img {
   margin-left: 15%;

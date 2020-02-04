@@ -2,18 +2,14 @@
 
    
 
-    margin-left: 15%;
-    padding: 5%;
+    margin-left: @margins;
+    padding: 2%;
     background-attachment: fixed;
     text-align: center;
     font-size: 2rem;
-    color: white;
-    background: rgb(44, 150, 255);
-    font-weight: 800;
-
-    p{
-        width: 50%;
-    }
+    color: @Tertiary2;
+    background: @Maincolor;
+    font-weight: 500;
 
     button{
         margin:  2% auto;
@@ -21,7 +17,7 @@
     }
 }
 .header-img{
-    margin-left: 15%;
+    margin-left: @margins;
     img{
         opacity: 80%;
         height: 50rem;
@@ -31,27 +27,27 @@
 
 .Marketing{
     margin-top: 2%;
-    margin-left: 15%;
+    margin-left: @margins;
     font-size: 2rem;
     width: 40%;
 
 }
 
 .FootHeader{
-    margin-left: 15%;
+    margin-left: @margins;
     margin-top: 2%;
-    background: gainsboro;
+    background: @Tertiary1;
 }
 footer{
-    margin-left: 15%;
+    margin-left: @margins;
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 0%;
-    background: gainsboro;
+    background: @Tertiary1;
     a{
         font-size: 2rem;
         text-decoration: none;
-        color: dodgerblue;
+        color: @Maincolor;
         padding: 4%;
 
     }
