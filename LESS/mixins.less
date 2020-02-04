@@ -1,17 +1,18 @@
 // Mixins
 
-.buttonstyle(@prim-color:black, @color:white){
+.buttonstyle(){
     border-radius: 10px;
-    background-color: @prim-color;
-    color: @color;
+    background-color: @Tertiary2;
+    color: @Maincolor;
     text-align: center;
-    padding: 5%;
-    margin: 2% 10% 2% 10%;
+    padding: 1%;
+    display: block;
     font-size: 1.7rem;
+    border: dashed @Tertiary1 2px;
 
     &:hover{
-        color: @prim-color;
-        background: @color;
+        color: @Tertiary2;
+        background: @Maincolor;
 	}
 
     @media @phone{

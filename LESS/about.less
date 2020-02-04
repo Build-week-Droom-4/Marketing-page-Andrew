@@ -3,12 +3,18 @@
     display: flex;
     flex-wrap: wrap;
     .Member{
-        border: dashed 2px dodgerblue;
-        background: gainsboro;
+        border: dashed 2px @Maincolor;
+        background: @Tertiary1;
         width: 40%;
         margin: 2%;
         padding: 2%;
         text-align: center;
+
+        &:hover{
+            border: dashed 2px @Tertiary1;
+            background: @Maincolor;
+            color: @Tertiary2;
+        }
 
         
         .Portrait{

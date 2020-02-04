@@ -226,12 +226,24 @@ p {
 }
 .Droom-Header button {
   margin: 2% auto;
-  display: block;
-  border-radius: 5px;
+  border-radius: 10px;
   background-color: white;
-  padding: 1rem;
-  font-size: 1.5rem;
-  border: solid black 1px;
+  color: dodgerblue;
+  text-align: center;
+  padding: 1%;
+  display: block;
+  font-size: 1.7rem;
+  border: dashed gainsboro 2px;
+}
+.Droom-Header button:hover {
+  color: white;
+  background: dodgerblue;
+}
+@media (max-width: 500px) {
+  .Droom-Header button {
+    padding: 5%;
+    margin: 2% 0% 2% 0%;
+  }
 }
 .header-img {
   margin-left: 15%;
@@ -277,6 +289,11 @@ footer a {
   margin: 2%;
   padding: 2%;
   text-align: center;
+}
+.TeamMembers .Member:hover {
+  border: dashed 2px gainsboro;
+  background: dodgerblue;
+  color: white;
 }
 .TeamMembers .Member .Portrait {
   width: 40%;
