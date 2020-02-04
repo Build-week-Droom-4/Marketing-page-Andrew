@@ -1,1 +1,26 @@
 // Mixins
+
+.buttonstyle(@prim-color:black, @color:white){
+    border-radius: 10px;
+    background-color: @prim-color;
+    color: @color;
+    text-align: center;
+    padding: 5%;
+    margin: 2% 10% 2% 10%;
+    font-size: 1.7rem;
+
+    &:hover{
+        color: @prim-color;
+        background: @color;
+	}
+
+    @media @phone{
+        padding: 5%;
+        margin: 2% 0% 2% 0%
+    }
+
+}
+
+.mobilewidth(){
+    width: 100%;
+}

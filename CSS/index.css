@@ -265,3 +265,21 @@ footer a {
   color: dodgerblue;
   padding: 4%;
 }
+.TeamMembers {
+  margin-left: 15%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.TeamMembers .Member {
+  border: dashed 2px dodgerblue;
+  background: gainsboro;
+  width: 40%;
+  margin: 2%;
+  padding: 2%;
+  text-align: center;
+}
+.TeamMembers .Member .Portrait {
+  width: 40%;
+  height: auto;
+  border-radius: 1rem;
+}
